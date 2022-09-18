@@ -71,7 +71,6 @@ p > i{
 } 
 
 p > u{
-    color: blue;  
     text-decoration: underline;
 
 }
@@ -84,10 +83,6 @@ p > a{
 
 p > em{
     font-style: italic;
-}
-
-p > u{
-    text-decoration: underline;
 }
 
 q{
