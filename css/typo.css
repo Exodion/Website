@@ -82,17 +82,17 @@ p > a{
 
 }
 
+p > em{
+    font-style: italic;
+}
+
+p > u{
+    text-decoration: underline;
+}
+
 q{
     font-style: italic;
 
-}
-
-em{
-    font-style: italic;
-}
-
-u{
-    text-decoration: underline;
 }
 
 blockquote { 
