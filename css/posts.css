@@ -1,0 +1,38 @@
+#social{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+#post-author{
+    display: inline-block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(215, 233, 252);
+    width: 100%;
+    border-radius: 5px;
+}
+
+#post-author-text{
+    display: inline-block;
+    margin-top: 2vw;
+}
+
+#avatar{
+    float: left;
+    margin: 2vw;
+    max-width: 5vw;
+}
+
+.author-span{
+    display: block;
+}
+
+#author-name{
+    font-weight: bold;
+}
+
+#related-articles{
+   padding: 2vw;
+   
+}

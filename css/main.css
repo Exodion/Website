@@ -1,0 +1,171 @@
+.container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.05fr 0.80fr 0.13fr;
+        grid-template-areas: 
+        "hd"
+        "sd" 
+        "ct"
+        "ft";
+        border: solid lightsteelblue 2px;
+ 
+}
+
+
+@media(min-width: 1080px){
+    .container{
+        display: grid;
+        grid-template-columns: 10vw 15vw 15vw 5vw;
+        grid-template-rows: 10vh 0.9fr 0.1fr; 
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd sd"
+        "ct ct ct ct ct ct ct sd"
+        "ft ft ft ft ft ft ft ft";
+        border: solid lightsteelblue 2px;
+    
+    }
+
+}
+
+.container > *{
+    min-width: 0px;
+}
+
+
+#header{
+    grid-area: hd;
+}
+
+#sidebar{
+    grid-area: sd;
+}
+
+.content{
+    grid-area: ct;
+    margin: 5vw;
+    position: relative;
+
+}
+
+@media(min-width: 1080px){
+    .content{
+        grid-area: ct;
+        margin: 5vw;
+        margin-right: 1vw;
+        position: relative;
+    
+    }
+
+}
+
+.nested{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    /* grid-area: 1/1/4/4; */
+    grid-auto-rows: minmax(100px, auto); 
+    gap: 1vw;
+    width: 99%;
+}
+
+@media(min-width: 1080px){
+    .nested{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 1fr;
+        /* grid-area: 1/1/4/4; */
+        grid-auto-rows: minmax(300px, auto); 
+        gap: 1vw;
+        width: 96%;
+    }
+}
+
+.nested > *{
+    min-width: 0px;
+}
+
+#footer{
+    grid-area: ft;
+
+}
+
+
+.content-box{
+    border: solid steelblue 2px;
+    margin: 1vw;
+    padding: 1vw;
+    height: fit-content;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    transition: 0.3s;
+
+}
+
+.content-box:hover{
+    box-shadow: 0 0px 64px 0 blue;
+
+}
+
+#logo{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: left;
+    margin: 2.5vw;
+
+}
+
+#navigation-items{
+    margin: 1vw;
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.navigation-item{
+    margin-right: 2vw;
+}
+
+@media(min-width: 1080px){
+    #navigation-items{
+        margin-right: 2.5vw;
+        margin-top: 2.5vw;
+        display: block;
+        list-style-type: disc;
+    
+    }
+
+    .navigation-item{
+        margin-right: 0vw;
+    }
+}
+
+#copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mini-image{
+    display: block;
+    position: relative;
+    max-width: 100%;
+
+}
+
+#welcome{
+    position:relative;
+}
+
+#logo-image{
+    margin-left: 2vw;
+    margin-right: 5vw;
+    height: 10vh;
+    
+}
+
+.post-image{
+    max-width: 100%;
+
+}
+

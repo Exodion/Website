@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>My new site</title>
+
 </head>
 
 <body>
-    <h1>Test</h1>
+
+    <div class="container" id="main-container">
+        <div id="header">
+            <header>
+                <div id="logo">
+                    <a href="./index.html"><img id="logo-image" src="img/logo.png" alt="Logo"></a>
+                    <h1 id="welcome">My blog!</h1>
+                </div>
+            </header>
+        </div>
+        
+        <div id="sidebar">
+            <nav>
+                <ul id="navigation-items">
+                    <li class="navigation-item"><a href="./posts/post-01.html">Blog post 1</a></li>
+                    <li class="navigation-item"><a href="./posts/post-01.html">Blog post 2</a></li>
+                    <li class="navigation-item"><a href="./posts/post-01.html">Blog post 3</a></li>
+                    <li class="navigation-item"><a href="./posts/post-01.html">Blog post 4</a></li>
+                    <li class="navigation-item"><a href="./index.html">Home</a></li>                
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="content">
+            <div class="nested">
+                <a href="./posts/post-01.html">
+                    <div id="content-box-01" class="content-box">
+                        <img class="mini-image" src="./img/dummy.jpg" alt="image description">
+                        <h3>Post title 1</h3>
+                        <p>Post <b>excerpt</b></p>
+                        <button>Read more</button>
+
+                    </div>
+                </a>
+
+                <a href="./posts/post-01.html">               
+                    <div id="content-box-02" class="content-box">
+                        <img class="mini-image" src="./img/dummy.jpg" alt="image description">
+                        <h3>Post title 1</h3>
+                        <p>Post excerpt</p>
+                        <button>Read more</button>
+
+
+                    </div>
+                </a>
+
+                <a href="./posts/post-01.html">
+                    <div id="content-box-03" class="content-box">
+                        <img class="mini-image" src="./img/dummy.jpg" alt="image description">
+                        <h3>Post title 1</h3>
+                        <p>Post excerpt</p>
+                        <button>Read more</button>
+
+
+                    </div>
+                </a>
+
+                <a href="./posts/post-01.html">
+                    <div id="content-box-04" class="content-box">
+                        <img class="mini-image" src="./img/dummy.jpg" alt="image description">
+                        <h3>Post title 1</h3>
+                        <p>Post excerpt</p>
+                        <button>Read more</button>
+
+
+                    </div>
+                </a>
+
+                <a href="./posts/post-01.html">
+                    <div id="content-box-05" class="content-box">
+                        <img class="mini-image" src="./img/dummy.jpg" alt="image description">
+                        <h3>Post title 1</h3>
+                        <p>Post excerpt</p>
+                        <button>Read more</button>
+
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        
+        <div id="footer">
+            <footer>
+                <p id="copyright">Copyright 2022 by Christian Förster.</p>
+            </footer>
+        </div>
+
+    </div>
+    
 </body>
 </html>

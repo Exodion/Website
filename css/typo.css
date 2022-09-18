@@ -1,0 +1,99 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: midnightblue;
+    display: inherit;
+}
+
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: midnightblue;
+    display: inherit;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: steelblue;
+    display: inherit;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+    position: relative;
+
+}
+
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;            
+}
+
+a{
+    text-decoration: none;
+    color: blue;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:hover a{
+    text-decoration: underline;
+}
+
+p:hover a{
+    text-decoration: underline;
+}
+
+span:hover a{
+    text-decoration: underline;
+}
+
+p > strong{
+    color: blue;  
+    font-weight: bold;  
+
+}
+
+p > b{
+    color: blue;  
+    font-weight: bold;  
+
+}
+
+p > i{
+    color: blue;  
+    font-style: italic;  
+
+} 
+
+p > u{
+    color: blue;  
+    text-decoration: underline;
+
+}
+
+p > a{
+    color: blue;  
+    text-decoration: underline dotted;
+
+}
+
+q{
+    font-style: italic;
+
+}
+
+figcaption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-style: italic;
+    
+}
+
+button:hover{
+    background-color: lightskyblue;
+}
